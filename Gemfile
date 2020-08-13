@@ -13,6 +13,8 @@ gem "dotenv-rails"
 gem "mysql2"
 gem "rswag"
 gem "pagy"
+gem 'doorkeeper', '~> 5.4'
+gem 'devise', '~> 4.7', '>= 4.7.2'
 
 group :development, :test do
   gem "byebug", platforms: [:mri, :mingw, :x64_mingw]
